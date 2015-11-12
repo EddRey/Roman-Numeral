@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6894FC3C1BF5211400D2EC7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6894FC3B1BF5211400D2EC7A /* AppDelegate.swift */; };
+		6894FC3E1BF5211400D2EC7A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6894FC3D1BF5211400D2EC7A /* FirstViewController.swift */; };
+		6894FC401BF5211400D2EC7A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6894FC3F1BF5211400D2EC7A /* SecondViewController.swift */; };
+		6894FC431BF5211400D2EC7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6894FC411BF5211400D2EC7A /* Main.storyboard */; };
+		6894FC451BF5211400D2EC7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6894FC441BF5211400D2EC7A /* Assets.xcassets */; };
+		6894FC481BF5211400D2EC7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6894FC461BF5211400D2EC7A /* LaunchScreen.storyboard */; };
+		6894FC531BF5211400D2EC7A /* Roman_NumeralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6894FC521BF5211400D2EC7A /* Roman_NumeralTests.swift */; };
+		6894FC5E1BF5211400D2EC7A /* Roman_NumeralUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6894FC5D1BF5211400D2EC7A /* Roman_NumeralUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6894FC4F1BF5211400D2EC7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6894FC301BF5211400D2EC7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6894FC371BF5211400D2EC7A;
+			remoteInfo = "Roman Numeral";
+		};
+		6894FC5A1BF5211400D2EC7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6894FC301BF5211400D2EC7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6894FC371BF5211400D2EC7A;
+			remoteInfo = "Roman Numeral";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6894FC381BF5211400D2EC7A /* Roman Numeral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Roman Numeral.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6894FC3B1BF5211400D2EC7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6894FC3D1BF5211400D2EC7A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		6894FC3F1BF5211400D2EC7A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		6894FC421BF5211400D2EC7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6894FC441BF5211400D2EC7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6894FC471BF5211400D2EC7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6894FC491BF5211400D2EC7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6894FC4E1BF5211400D2EC7A /* Roman NumeralTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roman NumeralTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6894FC521BF5211400D2EC7A /* Roman_NumeralTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roman_NumeralTests.swift; sourceTree = "<group>"; };
+		6894FC541BF5211400D2EC7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6894FC591BF5211400D2EC7A /* Roman NumeralUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roman NumeralUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6894FC5D1BF5211400D2EC7A /* Roman_NumeralUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roman_NumeralUITests.swift; sourceTree = "<group>"; };
+		6894FC5F1BF5211400D2EC7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6894FC351BF5211400D2EC7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6894FC4B1BF5211400D2EC7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6894FC561BF5211400D2EC7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6894FC2F1BF5211400D2EC7A = {
+			isa = PBXGroup;
+			children = (
+				6894FC3A1BF5211400D2EC7A /* Roman Numeral */,
+				6894FC511BF5211400D2EC7A /* Roman NumeralTests */,
+				6894FC5C1BF5211400D2EC7A /* Roman NumeralUITests */,
+				6894FC391BF5211400D2EC7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6894FC391BF5211400D2EC7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6894FC381BF5211400D2EC7A /* Roman Numeral.app */,
+				6894FC4E1BF5211400D2EC7A /* Roman NumeralTests.xctest */,
+				6894FC591BF5211400D2EC7A /* Roman NumeralUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6894FC3A1BF5211400D2EC7A /* Roman Numeral */ = {
+			isa = PBXGroup;
+			children = (
+				6894FC3B1BF5211400D2EC7A /* AppDelegate.swift */,
+				6894FC3D1BF5211400D2EC7A /* FirstViewController.swift */,
+				6894FC3F1BF5211400D2EC7A /* SecondViewController.swift */,
+				6894FC411BF5211400D2EC7A /* Main.storyboard */,
+				6894FC441BF5211400D2EC7A /* Assets.xcassets */,
+				6894FC461BF5211400D2EC7A /* LaunchScreen.storyboard */,
+				6894FC491BF5211400D2EC7A /* Info.plist */,
+			);
+			path = "Roman Numeral";
+			sourceTree = "<group>";
+		};
+		6894FC511BF5211400D2EC7A /* Roman NumeralTests */ = {
+			isa = PBXGroup;
+			children = (
+				6894FC521BF5211400D2EC7A /* Roman_NumeralTests.swift */,
+				6894FC541BF5211400D2EC7A /* Info.plist */,
+			);
+			path = "Roman NumeralTests";
+			sourceTree = "<group>";
+		};
+		6894FC5C1BF5211400D2EC7A /* Roman NumeralUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6894FC5D1BF5211400D2EC7A /* Roman_NumeralUITests.swift */,
+				6894FC5F1BF5211400D2EC7A /* Info.plist */,
+			);
+			path = "Roman NumeralUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6894FC371BF5211400D2EC7A /* Roman Numeral */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6894FC621BF5211400D2EC7A /* Build configuration list for PBXNativeTarget "Roman Numeral" */;
+			buildPhases = (
+				6894FC341BF5211400D2EC7A /* Sources */,
+				6894FC351BF5211400D2EC7A /* Frameworks */,
+				6894FC361BF5211400D2EC7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Roman Numeral";
+			productName = "Roman Numeral";
+			productReference = 6894FC381BF5211400D2EC7A /* Roman Numeral.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6894FC4D1BF5211400D2EC7A /* Roman NumeralTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6894FC651BF5211400D2EC7A /* Build configuration list for PBXNativeTarget "Roman NumeralTests" */;
+			buildPhases = (
+				6894FC4A1BF5211400D2EC7A /* Sources */,
+				6894FC4B1BF5211400D2EC7A /* Frameworks */,
+				6894FC4C1BF5211400D2EC7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6894FC501BF5211400D2EC7A /* PBXTargetDependency */,
+			);
+			name = "Roman NumeralTests";
+			productName = "Roman NumeralTests";
+			productReference = 6894FC4E1BF5211400D2EC7A /* Roman NumeralTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6894FC581BF5211400D2EC7A /* Roman NumeralUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6894FC681BF5211400D2EC7A /* Build configuration list for PBXNativeTarget "Roman NumeralUITests" */;
+			buildPhases = (
+				6894FC551BF5211400D2EC7A /* Sources */,
+				6894FC561BF5211400D2EC7A /* Frameworks */,
+				6894FC571BF5211400D2EC7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6894FC5B1BF5211400D2EC7A /* PBXTargetDependency */,
+			);
+			name = "Roman NumeralUITests";
+			productName = "Roman NumeralUITests";
+			productReference = 6894FC591BF5211400D2EC7A /* Roman NumeralUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6894FC301BF5211400D2EC7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Eddie Reynolds";
+				TargetAttributes = {
+					6894FC371BF5211400D2EC7A = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 5F9972QS6Y;
+					};
+					6894FC4D1BF5211400D2EC7A = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 5F9972QS6Y;
+						TestTargetID = 6894FC371BF5211400D2EC7A;
+					};
+					6894FC581BF5211400D2EC7A = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 5F9972QS6Y;
+						TestTargetID = 6894FC371BF5211400D2EC7A;
+					};
+				};
+			};
+			buildConfigurationList = 6894FC331BF5211400D2EC7A /* Build configuration list for PBXProject "Roman Numeral" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6894FC2F1BF5211400D2EC7A;
+			productRefGroup = 6894FC391BF5211400D2EC7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6894FC371BF5211400D2EC7A /* Roman Numeral */,
+				6894FC4D1BF5211400D2EC7A /* Roman NumeralTests */,
+				6894FC581BF5211400D2EC7A /* Roman NumeralUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6894FC361BF5211400D2EC7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6894FC481BF5211400D2EC7A /* LaunchScreen.storyboard in Resources */,
+				6894FC451BF5211400D2EC7A /* Assets.xcassets in Resources */,
+				6894FC431BF5211400D2EC7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6894FC4C1BF5211400D2EC7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6894FC571BF5211400D2EC7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6894FC341BF5211400D2EC7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6894FC401BF5211400D2EC7A /* SecondViewController.swift in Sources */,
+				6894FC3C1BF5211400D2EC7A /* AppDelegate.swift in Sources */,
+				6894FC3E1BF5211400D2EC7A /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6894FC4A1BF5211400D2EC7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6894FC531BF5211400D2EC7A /* Roman_NumeralTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6894FC551BF5211400D2EC7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6894FC5E1BF5211400D2EC7A /* Roman_NumeralUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6894FC501BF5211400D2EC7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6894FC371BF5211400D2EC7A /* Roman Numeral */;
+			targetProxy = 6894FC4F1BF5211400D2EC7A /* PBXContainerItemProxy */;
+		};
+		6894FC5B1BF5211400D2EC7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6894FC371BF5211400D2EC7A /* Roman Numeral */;
+			targetProxy = 6894FC5A1BF5211400D2EC7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6894FC411BF5211400D2EC7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6894FC421BF5211400D2EC7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6894FC461BF5211400D2EC7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6894FC471BF5211400D2EC7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6894FC601BF5211400D2EC7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6894FC611BF5211400D2EC7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6894FC631BF5211400D2EC7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Roman Numeral/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EddieReynolds.Roman-Numeral";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6894FC641BF5211400D2EC7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Roman Numeral/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EddieReynolds.Roman-Numeral";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6894FC661BF5211400D2EC7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Roman NumeralTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EddieReynolds.Roman-NumeralTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roman Numeral.app/Roman Numeral";
+			};
+			name = Debug;
+		};
+		6894FC671BF5211400D2EC7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Roman NumeralTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EddieReynolds.Roman-NumeralTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roman Numeral.app/Roman Numeral";
+			};
+			name = Release;
+		};
+		6894FC691BF5211400D2EC7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Roman NumeralUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EddieReynolds.Roman-NumeralUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Roman Numeral";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6894FC6A1BF5211400D2EC7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Roman NumeralUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EddieReynolds.Roman-NumeralUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Roman Numeral";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6894FC331BF5211400D2EC7A /* Build configuration list for PBXProject "Roman Numeral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6894FC601BF5211400D2EC7A /* Debug */,
+				6894FC611BF5211400D2EC7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6894FC621BF5211400D2EC7A /* Build configuration list for PBXNativeTarget "Roman Numeral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6894FC631BF5211400D2EC7A /* Debug */,
+				6894FC641BF5211400D2EC7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6894FC651BF5211400D2EC7A /* Build configuration list for PBXNativeTarget "Roman NumeralTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6894FC661BF5211400D2EC7A /* Debug */,
+				6894FC671BF5211400D2EC7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6894FC681BF5211400D2EC7A /* Build configuration list for PBXNativeTarget "Roman NumeralUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6894FC691BF5211400D2EC7A /* Debug */,
+				6894FC6A1BF5211400D2EC7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6894FC301BF5211400D2EC7A /* Project object */;
+}
